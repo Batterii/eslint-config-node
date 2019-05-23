@@ -13,7 +13,7 @@
     "lintf": "eslint . --fix",
     "preversion": "npm run lint",
     "postversion": "npm publish",
-    "prepublish": "git push && git push --tags"
+    "prepublishOnly": "git push && git push --tags"
   },
   "devDependencies": {
     "eslint": "^5.16.0"

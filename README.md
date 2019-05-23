@@ -80,7 +80,7 @@ you do this, the following happens:
 2. `npm version` updates the version field in `package.json`, creates a new
    commit for this change, and tags the commit with the version number.
 3. The `postversion` script runs `npm publish`.
-4. The `prepublish` script pushes the current branch and all tags.
+4. The `prepublishOnly` script pushes the current branch and all tags.
 5. Finally, `npm publish` publishes the new version to the registry.
 
 Note that once step 5 has been completed, this process *cannot be undone*, so
