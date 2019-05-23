@@ -66,8 +66,8 @@ This latter command will fully revert your `node_modules` folder back to exactly
 what is specified in `package-lock.json`. This will this also destroy any other
 linked packages, but this is actually for the best.
 
-Ideally, you should not keep your packages linked this way for any signficiant
-length of time, so make sure you remember to perform this cleaup when you are
+Ideally, you should not keep your packages linked this way for any significant
+length of time, so make sure you remember to perform this cleanup when you are
 done testing.
 
 
@@ -90,7 +90,7 @@ make sure you know what you're doing.
 ### Concerning Version Numbers
 
 Because of the nature of linter rules, almost every change to this project
-could concievably be considered a "breaking change" by producing linter
+could conceivably be considered a "breaking change" by producing linter
 errors in other projects where there were none before. That being said, the
 linter output is purely the concern of developers, not users, so there is no
 need to keep strictly to semver conventions.
