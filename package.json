@@ -1,6 +1,6 @@
 {
   "name": "@batterii/eslint-config-node",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "ESLint Configuration for Batterii Node projects",
   "author": "Batterii, LLC",
   "license": "UNLICENSED",
