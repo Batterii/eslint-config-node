@@ -1,0 +1,3 @@
+extends: ./index.js # Lint this project with its own rules.
+rules:
+    sort-keys: error # Sort rules by key for easy location.
