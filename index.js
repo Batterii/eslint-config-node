@@ -4,6 +4,9 @@ module.exports = {
 		node: true,
 	},
 	extends: 'eslint:recommended',
+	parserOptions: {
+		ecmaVersion: 8,
+	},
 	rules: {
 		'accessor-pairs': 'error',
 		'array-bracket-newline': [
