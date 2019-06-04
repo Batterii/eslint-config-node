@@ -85,8 +85,8 @@ Next, run `npm publish`, which causes the following:
 1. The `prepublishOnly` script pushes the current branch and all tags.
 2. `npm publish` publishes the new version to the registry.
 
-Note that `npm publish` has been completed, this process *cannot be undone*, so
-make sure you know what you're doing before running it.
+Note that once `npm publish` has been completed, this process *cannot be
+undone*, so make sure you know what you're doing before running it.
 
 
 ### Concerning Version Numbers
