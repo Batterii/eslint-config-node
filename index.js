@@ -32,7 +32,13 @@ module.exports = {
 		'class-methods-use-this': 'warn',
 		'comma-dangle': [
 			'error',
-			'always-multiline',
+			{
+				arrays: 'always-multiline',
+				exports: 'always-multiline',
+				functions: 'always-multiline',
+				imports: 'always-multiline',
+				objects: 'always-multiline',
+			},
 		],
 		'comma-spacing': [
 			'error',
@@ -62,10 +68,7 @@ module.exports = {
 			'error',
 			'never',
 		],
-		'function-paren-newline': [
-			'error',
-			'consistent',
-		],
+		'function-paren-newline': 'error',
 		'generator-star-spacing': 'error',
 		'global-require': 'error',
 		'implicit-arrow-linebreak': 'error',
