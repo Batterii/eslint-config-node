@@ -68,7 +68,11 @@ module.exports = {
 			'error',
 			'never',
 		],
-		'function-paren-newline': 'error',
+
+		// Off until we can move to eslint 6 and use the new
+		// `multiline-arguments` option.
+		'function-paren-newline': 'off',
+
 		'generator-star-spacing': 'error',
 		'global-require': 'error',
 		'implicit-arrow-linebreak': 'error',
