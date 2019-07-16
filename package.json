@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "ESLint Configuration for Batterii Node projects",
   "author": "Batterii, LLC",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": "github:Batterii/eslint-config-node",
   "files": [
     "index.js"
