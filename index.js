@@ -230,7 +230,6 @@ module.exports = {
 		],
 		'radix': 'error',
 		'require-atomic-updates': 'error',
-		'require-await': 'warn',
 		'rest-spread-spacing': 'error',
 		'semi': 'error',
 		'semi-spacing': 'error',
