@@ -229,7 +229,13 @@ module.exports = {
 			'single',
 		],
 		'radix': 'error',
-		'require-atomic-updates': 'error',
+
+		/*
+		 * Turned off due to false positives as of eslint@6.
+		 * See https://github.com/eslint/eslint/issues/11899
+		 */
+		'require-atomic-updates': 'off',
+
 		'rest-spread-spacing': 'error',
 		'semi': 'error',
 		'semi-spacing': 'error',
