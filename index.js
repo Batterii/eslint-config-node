@@ -60,7 +60,6 @@ module.exports = {
 			'error',
 			'property',
 		],
-
 		'dot-notation': 'error',
 		'eol-last': 'error',
 		'eqeqeq': 'error',
@@ -69,11 +68,10 @@ module.exports = {
 			'error',
 			'never',
 		],
-
-		// eslint-disable-next-line multiline-comment-style
-		// TODO: Move to eslint@6 and turn this on with `multiline-arguments`.
-		// typescript-eslint does not yet support eslint@6.
-		'function-paren-newline': 'off',
+		'function-paren-newline': [
+			'error',
+			'multiline-arguments',
+		],
 		'generator-star-spacing': 'error',
 		'global-require': 'error',
 		'implicit-arrow-linebreak': 'error',

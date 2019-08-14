@@ -15,9 +15,9 @@
     "prepublishOnly": "git push && git push --tags"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.1.0"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.10.0"
   }
 }
