@@ -1,3 +1,13 @@
 extends: ./index.js # Lint this project with its own rules.
+plugins: ["import", "sort-imports-es6-autofix"]
 rules:
     sort-keys: error # Sort rules by key for easy location.
+    import/extensions:
+        - error
+        - "always"
+        - ignorePackages: true
+    sort-imports-es6-autofix/sort-imports-es6:
+        - error
+        - ignoreCase: true
+          ignoreMemberSort: false
+          memberSyntaxSortOrder: ["none", "all", "multiple", "single"]
